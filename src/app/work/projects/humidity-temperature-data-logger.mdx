@@ -1,0 +1,156 @@
+---
+title: "Humidity & Temperature Data Logger with Cloud Sync"
+publishedAt: "2025-10-15"
+summary: "Multi-sensor environmental logger with cloud database integration for remote monitoring, real-time data logging, and automated environmental tracking."
+images:
+  - "/images/humidity%20and%20temp%20logger/final.jpg"
+  - "/images/humidity%20and%20temp%20logger/internals.jpg"
+team:
+  - name: "Karnnan AJ"
+    role: "Embedded Systems Engineer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/karnnan-aj"
+---
+
+## Overview
+
+Developed a comprehensive environmental data logging system that monitors humidity and temperature conditions in real-time. The device features local data storage, cloud synchronization, and remote access capabilities, enabling continuous environmental tracking across distributed locations.
+
+## Key Features
+
+- **Dual Sensor Monitoring**: High-precision humidity and temperature sensors with independent measurement channels
+- **Local Data Storage**: On-board storage with long-term data retention capability
+- **Cloud Synchronization**: Automatic data upload to cloud database for remote access and analysis
+- **Real-Time Monitoring**: Continuous measurement with configurable sampling intervals
+- **Low Power Operation**: Battery-powered design with extended operational lifetime
+- **Wireless Connectivity**: WiFi/Cellular integration for seamless cloud connectivity
+- **User-Friendly Interface**: Simple setup and configuration via mobile app or web dashboard
+
+## Technical Architecture
+
+### Hardware Components
+
+**Sensors:**
+- High-accuracy temperature sensor (±0.5°C)
+- Capacitive humidity sensor (±3% RH)
+- Optional atmospheric pressure sensor for weather correlation
+
+**Processing:**
+- Low-power microcontroller for data acquisition
+- Real-time clock for accurate timestamping
+- Communication module for cloud connectivity
+
+**Storage:**
+- Local microSD card for memory-efficient data logging
+- Non-volatile storage for configuration backup
+- Flash memory for firmware updates
+
+**Power System:**
+- Rechargeable battery or AC adapter
+- Power management for extended operation
+- Low-power wake-up for periodic measurements
+
+### Software Architecture
+
+- **Firmware**: C/C++ firmware for sensor interfacing and data processing
+- **Cloud Platform**: RESTful API for secure data transmission
+- **Database**: Time-series database optimized for sensor data
+- **Frontend**: Web and mobile dashboards for data visualization
+- **Backend**: Node.js server for data management and analysis
+
+## Operational Features
+
+### Data Logging
+- **Sampling Rate**: Configurable from 1 measurement per minute to per hour
+- **Resolution**: 16-bit sensor resolution for detailed readings
+- **Timestamp Accuracy**: RTC-based precision timing
+- **Data Format**: CSV and JSON export options
+
+### Cloud Integration
+- **Automatic Sync**: Periodic cloud upload when connectivity available
+- **Offline Mode**: Local caching for operation during connectivity loss
+- **Encryption**: Secure transmission with SSL/TLS encryption
+- **Data Retention**: Configurable retention policies in cloud storage
+
+### Remote Access
+- **Web Dashboard**: Real-time and historical data visualization
+- **Mobile App**: iOS and Android applications for on-the-go monitoring
+- **API Access**: RESTful endpoints for third-party integration
+- **Alerts**: Notification system for threshold violations
+
+## Applications
+
+- **Climate Control** - HVAC system monitoring and optimization
+- **Laboratory** - Environmental condition documentation for experiments
+- **Archive** - Preservation environment monitoring for sensitive materials
+- **Agriculture** - Greenhouse and storage condition tracking
+- **Healthcare** - Hospital and pharmaceutical storage compliance
+- **Data Center** - Thermal management and efficiency optimization
+- **Home Automation** - Smart home environmental monitoring
+
+## Performance Metrics
+
+| Metric | Specification |
+|--------|--------------|
+| Temperature Accuracy | ±0.5°C |
+| Humidity Accuracy | ±3% RH |
+| Measurement Range | -20 to +60°C, 0-100% RH |
+| Sampling Interval | 1 minute to 1 hour configurable |
+| Battery Life | 6-12 months (depending on sampling rate) |
+| Cloud Sync Interval | Configurable (1 min to 1 hour) |
+| Data Storage | 100,000+ measurements locally |
+| Response Time | <5 seconds to environmental changes |
+
+## Design Considerations
+
+### Sensor Placement
+- Optimal airflow for representative measurements
+- Isolation from direct heat/cold sources
+- Protection from external contamination
+- Ergonomic positioning for accessibility
+
+### Power Management
+- Sleep modes for extended battery operation
+- Efficient sensor multiplexing
+- Optimized transmission scheduling
+- Low-power communication protocols
+
+### Reliability
+- Redundant sensor configurations available
+- Self-diagnostic capabilities
+- Automatic error detection and correction
+- Graceful degradation on component failure
+
+## Challenges & Solutions
+
+**Challenge 1: Power Consumption**
+- Solution: Optimized sampling and transmission scheduling
+- Result: 6-12 month battery life achieved
+
+**Challenge 2: Cloud Connectivity**
+- Solution: Local buffering with delayed sync capability
+- Result: Operation during connectivity loss maintained
+
+**Challenge 3: Sensor Accuracy**
+- Solution: Multi-point calibration and temperature compensation
+- Result: Industry-grade accuracy achieved
+
+## Setup & Configuration
+
+1. **Initial Setup**: Power on and connect to WiFi
+2. **Cloud Account**: Register and create cloud account
+3. **Device Pairing**: Link device to account via app
+4. **Sensor Calibration**: Optional two-point calibration for enhanced accuracy
+5. **Notification Setup**: Configure alert thresholds and recipients
+
+## Outcome
+
+A fully functional environmental data logging system successfully deployed for continuous monitoring. Users now have complete visibility into environmental conditions with automatic cloud backup, enabling data-driven decisions for environmental management and compliance documentation. The system has proven reliable for extended deployments in various environments.
+
+## Future Enhancements
+
+- Additional sensor support (pressure, air quality, CO2)
+- Machine learning for anomaly detection
+- Predictive maintenance alerts
+- Integration with smart home ecosystems
+- Multi-device coordination and spatial mapping

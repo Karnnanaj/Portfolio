@@ -1,0 +1,129 @@
+---
+title: "EMI Isolation for Balanced Homodyne Detector"
+publishedAt: "2025-09-10"
+summary: "Complete electromagnetic interference isolation system for homodyne detector, reducing noise floor from -55 dBm to -68 dBm across 5 GHz bandwidth."
+images:
+  - "/images/emi%20isolation/emi%20isolation%20testing.jpg"
+team:
+  - name: "Karnnan AJ"
+    role: "Electronics & EMI Engineer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/karnnan-aj"
+---
+
+## Overview
+
+Developed a comprehensive EMI (Electromagnetic Interference) isolation system for balanced homodyne detectors used in quantum optics experiments. Successfully isolated the detector output from environmental interference, achieving a 13 dB improvement in noise floor performance.
+
+## Problem Statement
+
+Balanced photodetectors are sensitive precision instruments prone to electromagnetic interference from surrounding equipment. The initial setup suffered from noise floor of -55 dBm, severely limiting the detector's sensitivity and measurement capability for quantum optics experiments that require operation at shot-noise levels.
+
+## Key Achievements
+
+- **13 dB Noise Improvement**: Reduced noise floor from -55 dBm to -68 dBm (approaching shot-noise limit)
+- **5 GHz Bandwidth Protection**: Complete EMI shielding across operational frequency range
+- **Passive and Active Filtering**: Multi-layer approach combining Faraday cages, shielded cables, and active feedback
+- **Low Latency Design**: Maintained fast detector response while achieving high noise immunity
+- **Reproducible Performance**: Documented procedures for replicating results in similar setups
+
+## Technical Implementation
+
+### Shielding Strategy
+- **Primary Shielding**: Mu-metal Faraday cage for magnetic field attenuation
+- **Secondary Shielding**: Copper mesh enclosures for electromagnetic field rejection
+- **Cable Management**: Shielded twisted-pair cables with proper grounding techniques
+- **RF Filtering**: Ferrite cores and LC filters for high-frequency rejection
+
+### Filtering Architecture
+- **Analog Filtering**: Low-noise Op-amp based filters at detector output
+- **Power Supply Filtering**: Multiple LC filter stages for power line noise rejection
+- **AC Decoupling**: Transformer isolation for RF interference prevention
+- **Frequency-Selective Rejection**: Notch filters for specific interference frequencies
+
+### Grounding and Bonding
+- **Star Grounding**: Central grounding point to eliminate ground loops
+- **Impedance Matching**: Proper transmission line termination to prevent reflections
+- **Frequency-Dependent Grounding**: Separate grounding paths for different frequency ranges
+- **Low-Inductance Connections**: Minimized loop area for signal returns
+
+## Performance Optimization
+
+### Testing & Validation
+- Spectrum analyzer measurements before and after isolation
+- Time-domain waveform analysis
+- Signal-to-noise ratio improvements quantified
+- Repeatability testing across multiple setups
+
+### Environmental Testing
+- Testing in various EM environments
+- Validation against industrial noise sources
+- Robustness to temporary interference spikes
+- Long-term stability verification
+
+## Technologies Used
+
+- **PCB Design**: High-speed analog circuit design principles
+- **Electromagnetic Simulation**: COMSOL for field analysis and optimization
+- **Test Equipment**: Spectrum analyzers, oscilloscopes, EMI probes
+- **Materials**: Mu-metal, copper mesh, high-purity aluminum
+- **Signal Processing**: Lock-in detection for noise characterization
+
+## Challenges and Solutions
+
+**Challenge 1: Ground Loops**
+- Solution: Implemented star grounding topology with careful cable routing
+- Result: Eliminated 60 Hz and harmonics
+
+**Challenge 2: High-Frequency Coupling**
+- Solution: Added multi-stage shielding with magnetic permeability optimization
+- Result: Reduced coupling by >20 dB above 100 MHz
+
+**Challenge 3: Filter-Induced Phase Noise**
+- Solution: Balanced filter design to minimize phase distortion
+- Result: Maintained detector bandwidth while rejecting interference
+
+## Performance Metrics
+
+| Metric | Before | After | Improvement |
+|--------|--------|-------|------------|
+| Noise Floor | -55 dBm | -68 dBm | 13 dB |
+| Common Mode Rejection | 40 dB | 80+ dB | >40 dB |
+| Bandwidth | 5 GHz | 5 GHz | Maintained |
+| Response Time | <5 ns | <5 ns | Maintained |
+
+## Applications
+
+- **Quantum Optics**: Squeezed light detection and characterization
+- **Quantum Key Distribution**: Secure quantum communication systems
+- **Precision Metrology**: Sub-shot-noise measurements
+- **Gravitational Wave Detection**: LIGO-type interferometer readout
+- **Sensitive Signal Recovery**: Weak signal measurement below noise floor
+
+## Implementation Procedure
+
+1. **Assessment**: Identify primary EMI sources and coupling paths
+2. **Design**: Design filtration and shielding strategy based on frequency analysis
+3. **Implementation**: Install shielding, filters, and proper grounding
+4. **Testing**: Validate improvement with spectrum analysis
+5. **Documentation**: Create detailed procedures for reproducibility
+
+## Outcome
+
+The EMI isolation retrofit successfully brought the detector performance close to theoretical shot-noise limits, enabling sensitive quantum optical measurements previously impossible with the original setup. The methodology has become standard practice for similar detectors in the laboratory, significantly improving experimental capabilities across multiple research projects.
+
+## Documentation
+
+Complete isolation procedure documented with:
+- Detailed EMI source mapping
+- Step-by-step implementation guide
+- Performance verification methodology
+- Maintenance and troubleshooting protocols
+- Material sourcing information
+
+## Future Improvements
+
+- Automated EMI monitoring system
+- Real-time interference detection and response
+- Adaptive filter configurations
+- Integration with quantum measurement systems

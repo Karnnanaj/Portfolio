@@ -2,48 +2,33 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
+  firstName: "Karnnan",
+  lastName: "AJ",
+  name: `Karnnan AJ`,
+  role: "Optoelectronics & Embedded Systems Engineer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "karnnanaj2004@gmail.com",
+  location: "Asia/Kolkata",
+  languages: ["English"],
 };
 
 const newsletter: Newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>My weekly newsletter about creativity and engineering</>,
+  description: <>My weekly newsletter about optoelectronics and embedded systems</>,
 };
 
 const social: Social = [
-  // Links are automatically displayed.
-  // Import new icons in /once-ui/icons.ts
-  // Set essentials: true for links you want to show on the about page
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/Karnnanaj",
     essential: true,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-    essential: true,
-  },
-  {
-    name: "Instagram",
-    icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
-    essential: false,
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://linkedin.com/in/karnnan-aj",
     essential: true,
   },
   {
@@ -59,24 +44,24 @@ const home: Home = {
   image: "/images/og/home.jpg",
   label: "Home",
   title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  description: `Portfolio website showcasing my work as an ${person.role}`,
+  headline: <>Engineering optoelectronic systems and embedded solutions</>,
   featured: {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
+        <strong className="ml-4">Latest Work</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
-          Featured work
+          Optoelectronics Projects
         </Text>
       </Row>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "/work",
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    I'm Karnnan, an MSc student in Photonics at <Text as="span" size="xl" weight="strong">CUSAT</Text>, specializing in <br /> quantum optics and embedded systems. Currently interning in optoelectronics.
 </>
   ),
 };
@@ -94,7 +79,7 @@ const about: About = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -102,52 +87,78 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        MSc Photonics student at Cochin University of Science and Technology (CUSAT), 
+        specializing in quantum optics and control systems. With expertise in optoelectronics, embedded systems, 
+        and hardware design.
       </>
     ),
   },
   work: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Oxford Instruments",
+        timeframe: "2026 - Present",
+        role: "Embedded Systems Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Developing humidity and temperature monitoring system with cloud database integration for remote environmental tracking and critical condition alerts
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Quanfluence PVT Ltd",
+        timeframe: "2025",
+        role: "Optoelectronics Intern",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Developed SPI-based communication protocol for automated characterization of high-bandwidth 
+            transimpedance amplifier for quantum applications, reducing characterization time to under 3 minutes
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Optimized PDH-locked bow-tie cavity with FPGA-based feedback system achieving 3µs latency for 
+            light squeezing applications
+          </>,
+          <>
+            Achieved complete EMI isolation of homodyne detector output, improving noise floor from -55 to -68 dBm
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Bravecore PVT Ltd",
+        timeframe: "2025",
+        role: "Fiber Optic Communication Engineer",
+        achievements: [
+          <>
+            Developed hot-swappable fiber-optic communication link using SFP with 1 GHz bandwidth and 20km range
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "SimRacer",
+        timeframe: "2024 - Present",
+        role: "Founder & Embedded Systems Engineer",
+        achievements: [
+          <>
+            Founded company designing open-source sim racing setups
+          </>,
+          <>
+            Built custom USB game controller with 4 analog and 12 digital inputs using Pi Pico
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Ensemble Electronics",
+        timeframe: "2023 - Present",
+        role: "Co-founder & Hardware Design Engineer",
+        achievements: [
+          <>
+            Co-founded electronics hardware design and maintenance company
           </>,
         ],
         images: [],
@@ -155,78 +166,134 @@ const about: About = {
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
-    title: "Studies",
+    display: true,
+    title: "Education",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Cochin University of Science and Technology (CUSAT)",
+        description: <>MSc (5-year integrated) in Photonics (2022-2027). Specialized in quantum optics and control systems.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "GHSS, Karupadanna",
+        description: <>Higher Secondary Education (2020-2022): Computer Science, Mathematics, Physics</>,
+      },
+      {
+        name: "Technical High School, Kodungallur",
+        description: <>Technical Education (2017-2020) with workshop experience in trades including automobile, turning, welding, and electronics.</>,
       },
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
-    title: "Technical skills",
+    display: true,
+    title: "Technical Skills",
     skills: [
       {
-        title: "Figma",
+        title: "Programming & Software",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Knowledge in Python, C++, Verilog for embedded systems; TensorFlow & Qiskit for quantum; 
+          COMSOL & MATLAB-Simulink for simulations; CAD tools: FreeCAD, KiCad, Onshape, SolidWorks</>
         ),
         tags: [
           {
-            name: "Figma",
-            icon: "figma",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+            name: "Python",
+            icon: "python",
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+            name: "C++",
+            icon: "cpp",
+          },
+          {
+            name: "Verilog",
+            icon: "verilog",
           },
         ],
+        images: [],
       },
       {
-        title: "Next.js",
+        title: "Hardware & Instrumentation",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Proficient with oscilloscopes, spectrum/signal analyzers, EMI isolation, fiber optics & free-space optics, 
+          laser operation, and advanced signal processing techniques</>
         ),
         tags: [
           {
-            name: "JavaScript",
-            icon: "javascript",
+            name: "Oscilloscopes",
+            icon: "oscilloscope",
           },
           {
-            name: "Next.js",
-            icon: "nextjs",
+            name: "Fiber Optics",
+            icon: "fiber",
           },
           {
-            name: "Supabase",
-            icon: "supabase",
+            name: "Laser",
+            icon: "laser",
           },
         ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
+        images: [],
+      },
+      {
+        title: "Electronics & Prototyping",
+        description: (
+          <>Expertise in PCB design, FPGA system design, microcontroller programming, SMD soldering, 
+          electronics prototyping, and sensor hardware interfacing</>
+        ),
+        tags: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+            name: "PCB Design",
+            icon: "pcb",
+          },
+          {
+            name: "FPGA",
+            icon: "fpga",
+          },
+          {
+            name: "Microcontroller",
+            icon: "microcontroller",
           },
         ],
+        images: [],
+      },
+      {
+        title: "CAD & Machining",
+        description: (
+          <>Skills in FreeCAD, SolidWorks, Onshape for CAD design; lathe & milling machine operation, 3D printing</>
+        ),
+        tags: [
+          {
+            name: "FreeCAD",
+            icon: "freecad",
+          },
+          {
+            name: "SolidWorks",
+            icon: "solidworks",
+          },
+          {
+            name: "3D Printing",
+            icon: "3dprinting",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "Machine Learning & Simulation",
+        description: (
+          <>Proficiency in machine learning techniques and optics simulation for quantum and photonic applications</>
+        ),
+        tags: [
+          {
+            name: "TensorFlow",
+            icon: "tensorflow",
+          },
+          {
+            name: "MATLAB",
+            icon: "matlab",
+          },
+          {
+            name: "ML",
+            icon: "ml",
+          },
+        ],
+        images: [],
       },
     ],
   },
@@ -235,19 +302,15 @@ const about: About = {
 const blog: Blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "Writing about optoelectronics and embedded systems...",
   description: `Read what ${person.name} has been up to recently`,
-  // Create new blog posts by adding a new .mdx file to app/blog/posts
-  // All posts will be listed on the /blog route
 };
 
 const work: Work = {
   path: "/work",
   label: "Work",
   title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
-  // Create new project pages by adding a new .mdx file to app/blog/posts
-  // All projects will be listed on the /home and /work routes
+  description: `Optoelectronics and embedded systems projects by ${person.name}`,
 };
 
 const gallery: Gallery = {
@@ -255,8 +318,6 @@ const gallery: Gallery = {
   label: "Gallery",
   title: `Photo gallery – ${person.name}`,
   description: `A photo collection by ${person.name}`,
-  // Images by https://lorant.one
-  // These are placeholder images, replace with your own
   images: [
     {
       src: "/images/gallery/horizontal-1.jpg",
