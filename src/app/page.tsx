@@ -1,5 +1,17 @@
-import { redirect } from "next/navigation";
+// Home page - displays About content
+import About, { generateMetadata as generateAboutMetadata } from "./about/page";
+
+export async function generateMetadata() {
+  const metadata = await generateAboutMetadata();
+  return {
+    ...metadata,
+    openGraph: {
+      ...metadata.openGraph,
+      url: "/",
+    },
+  };
+}
 
 export default function Home() {
-  redirect("/about");
+  return <About />;
 }
