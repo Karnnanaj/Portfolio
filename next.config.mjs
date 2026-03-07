@@ -9,9 +9,7 @@ const withMDX = mdx({
 const nextConfig = {
   pageExtensions: ["ts", "tsx", "md", "mdx"],
   transpilePackages: ["next-mdx-remote"],
-  output: "standalone",
   images: {
-    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
@@ -24,7 +22,6 @@ const nextConfig = {
     compiler: "modern",
     silenceDeprecations: ["legacy-js-api"],
   },
-  staticPageGenerationTimeout: 120,
 };
 
 export default withMDX(nextConfig);

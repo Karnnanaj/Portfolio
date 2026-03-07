@@ -427,19 +427,6 @@ const gallery: Gallery = {
       orientation: "horizontal",
       caption: "SPI Characterization - Development Setup",
     },
-    // Fiber Optic Link for Remote Vehicle
-    {
-      src: "/images/fiber%20optic%20link/videofeedviafiber.mp4",
-      alt: "Fiber optic link video feed transmission",
-      orientation: "horizontal",
-      caption: "Fiber Optic Link - Video Feed via Fiber",
-    },
-    {
-      src: "/images/fiber%20optic%20link/videofeed.jpg",
-      alt: "Fiber optic link video feed setup",
-      orientation: "horizontal",
-      caption: "Fiber Optic Link - Transmission Setup",
-    },
   ],
 };
 
