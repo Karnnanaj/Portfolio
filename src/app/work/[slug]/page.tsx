@@ -74,7 +74,7 @@ export default async function Project({
     })) || [];
 
   return (
-    <Column as="section" maxWidth="m" horizontal="center" gap="l">
+    <Column as="section" maxWidth="l" horizontal="center" gap="l">
       <Schema
         as="blogPosting"
         baseURL={baseURL}
@@ -118,12 +118,23 @@ export default async function Project({
           </Text>
         </Row>
       </Row>
-      {post.metadata.images.length > 0 && (
-        <Media priority aspectRatio="16 / 9" radius="m" alt="image" src={post.metadata.images[0]} />
-      )}
-      <Column style={{ margin: "auto" }} as="article" maxWidth="xs">
-        <CustomMDX source={post.content} />
-      </Column>
+      <Row fillWidth gap="40" horizontal="between" s={{ direction: "column", gap: "m" }}>
+        {post.metadata.images.length > 0 && (
+          <Column flex={1} gap="m" s={{ position: "relative" }}>
+            {post.metadata.images.map((image, idx) => (
+              <Media
+                key={idx}
+                src={image}
+                alt={post.metadata.title}
+                sizes="(max-width: 560px) 100vw, 50vw"
+              />
+            ))}
+          </Column>
+        )}
+        <Column flex={1} as="article">
+          <CustomMDX source={post.content} />
+        </Column>
+      </Row>
       <Column fillWidth gap="40" horizontal="center" marginTop="40">
         <Line maxWidth="40" />
         <Heading as="h2" variant="heading-strong-xl" marginBottom="24">
