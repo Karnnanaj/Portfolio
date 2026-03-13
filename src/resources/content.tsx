@@ -415,6 +415,19 @@ const gallery: Gallery = {
       orientation: "horizontal",
       caption: "SPI Characterization - Development Setup",
     },
+    // Photophoretic Optical Trapping
+    {
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/optical trapping/optical trapping.mp4",
+      alt: "Photophoretic optical trapping system demonstration",
+      orientation: "horizontal",
+      caption: "Optical Trapping - Particle Confinement in Action",
+    },
+    {
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/optical trapping/optical trapping.png",
+      alt: "Photophoretic optical trapping system setup",
+      orientation: "horizontal",
+      caption: "Optical Trapping - System Architecture",
+    },
   ],
 };
 
