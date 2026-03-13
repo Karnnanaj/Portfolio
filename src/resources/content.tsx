@@ -140,7 +140,7 @@ const about: About = {
       },
       {
         company: "SimRacer",
-        timeframe: "2024 - Present",
+        timeframe: "2024 - 2026",
         role: "Founder & Embedded Systems Engineer",
         achievements: [
           <>
@@ -154,7 +154,7 @@ const about: About = {
       },
       {
         company: "Ensemble Electronics",
-        timeframe: "2023 - Present",
+        timeframe: "2023 - 2025",
         role: "Co-founder & Hardware Design Engineer",
         achievements: [
           <>
@@ -321,6 +321,12 @@ const gallery: Gallery = {
   images: [
     // Cloud Chamber - Ionizing Particle Visualization
     {
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud chamber/Americium test.mp4",
+      alt: "Cloud chamber Americium test",
+      orientation: "horizontal",
+      caption: "Cloud Chamber - Americium Test",
+    },
+    {
       src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud chamber/cooling test.mp4",
       alt: "Cloud chamber cooling test",
       orientation: "horizontal",
@@ -346,6 +352,12 @@ const gallery: Gallery = {
       caption: "Data Logger - Final Assembly",
     },
     {
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/humidity and temp logger/interface.png",
+      alt: "Data logger interface display",
+      orientation: "vertical",
+      caption: "Data Logger - Interface",
+    },
+    {
       src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/humidity and temp logger/internals.jpg",
       alt: "Data logger internal components",
       orientation: "vertical",
@@ -358,7 +370,38 @@ const gallery: Gallery = {
       orientation: "horizontal",
       caption: "EMI Isolation - Testing & Measurement",
     },
+    {
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/emi isolation/outputgraph.jpg",
+      alt: "EMI isolation output graph analysis",
+      orientation: "horizontal",
+      caption: "EMI Isolation - Output Graph",
+    },
+    {
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/emi isolation/testsetup.jpg",
+      alt: "EMI isolation test setup overview",
+      orientation: "horizontal",
+      caption: "EMI Isolation - Test Setup",
+    },
+    // Fiber Optic Communication Link
+    {
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/fiber optic link/videofeed.jpg",
+      alt: "Fiber optic video feed demonstration",
+      orientation: "horizontal",
+      caption: "Fiber Optic - Video Feed Display",
+    },
+    {
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/fiber optic link/videofeedviafiber.mp4",
+      alt: "Fiber optic video transmission via fiber link",
+      orientation: "horizontal",
+      caption: "Fiber Optic - Video Transmission",
+    },
     // SimRacer Setup
+    {
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/sim racing/pedalsandsteeringwheel.jpg",
+      alt: "SimRacer pedals and steering wheel assembly",
+      orientation: "horizontal",
+      caption: "SimRacer - Pedals & Steering Wheel",
+    },
     {
       src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/sim racing/showcase steering.jpg",
       alt: "SimRacer steering wheel system showcase",
