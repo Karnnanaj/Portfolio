@@ -13,11 +13,15 @@ const imagesDir = path.join(__dirname, "../public/images");
 async function uploadFilesToBlob() {
   console.log("Starting media upload to Vercel Blob...");
   
-  if (!process.env.BLOB_READ_WRITE_TOKEN) {
+  const token = process.env.BLOB_READ_WRITE_TOKEN;
+  if (!token) {
     console.error("❌ Error: BLOB_READ_WRITE_TOKEN not found in environment variables");
     console.error("Add BLOB_READ_WRITE_TOKEN to .env.local");
     process.exit(1);
   }
+
+  // Set as env var that Vercel Blob expects
+  process.env.VERCEL_BLOB_WRITE_TOKEN = token;
 
   const files = getFilesRecursive(imagesDir);
   const urls = {};
@@ -32,8 +36,11 @@ async function uploadFilesToBlob() {
     
     try {
       const fileData = fs.readFileSync(file);
-      const { url } = await put(blobPath, fileData);
-      urls[relativePath.replace(/\\/g, "/")] = url;
+      const result = await put(blobPath, fileData, {
+        access: 'public',
+        allowOverwrite: true,
+      });
+      urls[relativePath.replace(/\\/g, "/")] = result.url;
       console.log(`✓ ${relativePath}`);
       successCount++;
     } catch (error) {
