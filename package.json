@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "export": "next export",
+    "upload-blob": "node scripts/upload-to-blob.js",
     "build": "next build",
     "biome-write": "npx @biomejs/biome format --write .",
     "start": "next start",
@@ -13,8 +14,10 @@
     "@mdx-js/loader": "^3.1.0",
     "@next/mdx": "^16.0.10",
     "@once-ui-system/core": "latest",
+    "@vercel/blob": "^2.3.1",
     "classnames": "^2.5.1",
     "cookie": "^1.0.2",
+    "dotenv": "^17.3.1",
     "gray-matter": "^4.0.3",
     "lint-staged": "^16.1.5",
     "next": "^16.0.10",

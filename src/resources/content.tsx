@@ -117,10 +117,10 @@ const about: About = {
             Developed SPI-based communication protocol for automated characterization of high-bandwidth 
             transimpedance amplifier for quantum applications, reducing characterization time to under 3 minutes
           </>,
-          <>
-            Optimized PDH-locked bow-tie cavity with FPGA-based feedback system achieving 3µs latency for 
-            light squeezing applications
-          </>,
+          // <>
+          //   Optimized PDH-locked bow-tie cavity with FPGA-based feedback system achieving 3µs latency for 
+          //   light squeezing applications
+          // </>,
           <>
             Achieved complete EMI isolation of homodyne detector output, improving noise floor from -55 to -68 dBm
           </>,
@@ -321,108 +321,108 @@ const gallery: Gallery = {
   images: [
     // Cloud Chamber - Ionizing Particle Visualization
     {
-      src: "/images/cloud%20chamber/cooling%20test.mp4",
+      src: "https://mMHcX6G3WdT4Jiwf.public.blob.vercel-storage.com/portfolio/cloud%20chamber/cooling%20test.mp4",
       alt: "Cloud chamber cooling test",
       orientation: "horizontal",
       caption: "Cloud Chamber - Cooling Test",
     },
     {
-      src: "/images/cloud%20chamber/operation(electron%20flood).mp4",
+      src: "https://mMHcX6G3WdT4Jiwf.public.blob.vercel-storage.com/portfolio/cloud%20chamber/operation%28electron%20flood%29.mp4",
       alt: "Cloud chamber operation with electron flood",
       orientation: "horizontal",
       caption: "Cloud Chamber - Electron Flood Operation",
     },
     {
-      src: "/images/cloud%20chamber/VID_20250124_141833022.mp4",
+      src: "https://mMHcX6G3WdT4Jiwf.public.blob.vercel-storage.com/portfolio/cloud%20chamber/VID_20250124_141833022.mp4",
       alt: "Cloud chamber particle visualization",
       orientation: "horizontal",
       caption: "Cloud Chamber - Particle Track Visualization",
     },
     // Humidity & Temperature Data Logger
     {
-      src: "/images/humidity%20and%20temp%20logger/final.jpg",
+      src: "https://mMHcX6G3WdT4Jiwf.public.blob.vercel-storage.com/portfolio/humidity%20and%20temp%20logger/final.jpg",
       alt: "Humidity and temperature data logger final assembly",
       orientation: "vertical",
       caption: "Data Logger - Final Assembly",
     },
     {
-      src: "/images/humidity%20and%20temp%20logger/internals.jpg",
+      src: "https://mMHcX6G3WdT4Jiwf.public.blob.vercel-storage.com/portfolio/humidity%20and%20temp%20logger/internals.jpg",
       alt: "Data logger internal components",
       orientation: "vertical",
       caption: "Data Logger - Internal Components",
     },
     // EMI Isolation Detector
     {
-      src: "/images/emi%20isolation/emi%20isolation%20testing.jpg",
+      src: "https://mMHcX6G3WdT4Jiwf.public.blob.vercel-storage.com/portfolio/emi%20isolation/emi%20isolation%20testing.jpg",
       alt: "EMI isolation detector testing setup",
       orientation: "horizontal",
       caption: "EMI Isolation - Testing & Measurement",
     },
     // SimRacer Setup
     {
-      src: "/images/sim%20racing/showcase%20steering.jpg",
+      src: "https://mMHcX6G3WdT4Jiwf.public.blob.vercel-storage.com/portfolio/sim%20racing/showcase%20steering.jpg",
       alt: "SimRacer steering wheel system showcase",
       orientation: "horizontal",
       caption: "SimRacer - Steering Wheel Assembly",
     },
     {
-      src: "/images/sim%20racing/uncomplete%20steering%20system.jpg",
+      src: "https://mMHcX6G3WdT4Jiwf.public.blob.vercel-storage.com/portfolio/sim%20racing/uncomplete%20steering%20system.jpg",
       alt: "SimRacer steering system in progress",
       orientation: "horizontal",
       caption: "SimRacer - Steering System Assembly",
     },
     {
-      src: "/images/sim%20racing/uncomplete%20pedal%20system.jpg",
+      src: "https://mMHcX6G3WdT4Jiwf.public.blob.vercel-storage.com/portfolio/sim%20racing/uncomplete%20pedal%20system.jpg",
       alt: "SimRacer pedal system assembly",
       orientation: "horizontal",
       caption: "SimRacer - Pedal System Assembly",
     },
     // PCB Strain Mapping
     {
-      src: "/images/pcb%20strain%20mapping/hotspot%20detected.png",
+      src: "https://mMHcX6G3WdT4Jiwf.public.blob.vercel-storage.com/portfolio/pcb%20strain%20mapping/hotspot%20detected.png",
       alt: "PCB hotspot detection visualization",
       orientation: "horizontal",
       caption: "PCB Strain - Thermal Hotspot Detection",
     },
     {
-      src: "/images/pcb%20strain%20mapping/IMG_20260212_174414603.jpg",
+      src: "https://mMHcX6G3WdT4Jiwf.public.blob.vercel-storage.com/portfolio/pcb%20strain%20mapping/IMG_20260212_174414603.jpg",
       alt: "PCB strain mapping field measurement",
       orientation: "vertical",
       caption: "PCB Strain - Field Measurement Setup",
     },
     {
-      src: "/images/pcb%20strain%20mapping/IMG_20260212_174437091.jpg",
+      src: "https://mMHcX6G3WdT4Jiwf.public.blob.vercel-storage.com/portfolio/pcb%20strain%20mapping/IMG_20260212_174437091.jpg",
       alt: "PCB strain analysis in progress",
       orientation: "vertical",
       caption: "PCB Strain - Analysis Process",
     },
     {
-      src: "/images/pcb%20strain%20mapping/output%20strain%20S%20trace.png",
+      src: "https://mMHcX6G3WdT4Jiwf.public.blob.vercel-storage.com/portfolio/pcb%20strain%20mapping/output%20strain%20S%20trace.png",
       alt: "PCB strain output trace analysis",
       orientation: "horizontal",
       caption: "PCB Strain - Strain Output Trace",
     },
     {
-      src: "/images/pcb%20strain%20mapping/overall%20setup%20old.jpg",
+      src: "https://mMHcX6G3WdT4Jiwf.public.blob.vercel-storage.com/portfolio/pcb%20strain%20mapping/overall%20setup%20old.jpg",
       alt: "PCB strain mapping complete setup",
       orientation: "horizontal",
       caption: "PCB Strain - Complete Test Setup",
     },
     {
-      src: "/images/pcb%20strain%20mapping/setup%20close%20up%20old.jpg",
+      src: "https://mMHcX6G3WdT4Jiwf.public.blob.vercel-storage.com/portfolio/pcb%20strain%20mapping/setup%20close%20up%20old.jpg",
       alt: "PCB strain measurement close-up",
       orientation: "horizontal",
       caption: "PCB Strain - Measurement Close-up",
     },
     // SPI Chip Characterization
     {
-      src: "/images/spi%20communication/closeup%20setup.jpg",
+      src: "https://mMHcX6G3WdT4Jiwf.public.blob.vercel-storage.com/portfolio/spi%20communication/closeup%20setup.jpg",
       alt: "SPI communication test setup close-up",
       orientation: "horizontal",
       caption: "SPI Characterization - Test Equipment Detail",
     },
     {
-      src: "/images/spi%20communication/Spi%20communication%20development%20setup.jpg",
+      src: "https://mMHcX6G3WdT4Jiwf.public.blob.vercel-storage.com/portfolio/spi%20communication/Spi%20communication%20development%20setup.jpg",
       alt: "SPI communication development setup",
       orientation: "horizontal",
       caption: "SPI Characterization - Development Setup",
