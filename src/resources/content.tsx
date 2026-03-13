@@ -341,8 +341,8 @@ const gallery: Gallery = {
     {
       src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud chamber/VID_20250124_141833022.mp4",
       alt: "Cloud chamber particle visualization",
-      orientation: "horizontal",
-      caption: "Cloud Chamber - Particle Track Visualization",
+      orientation: "vertical",
+      caption: "Cloud Chamber - setup",
     },
     // Humidity & Temperature Data Logger
     {
@@ -354,7 +354,7 @@ const gallery: Gallery = {
     {
       src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/humidity and temp logger/interface.png",
       alt: "Data logger interface display",
-      orientation: "vertical",
+      orientation: "horizontal",
       caption: "Data Logger - Interface",
     },
     {
@@ -462,7 +462,7 @@ const gallery: Gallery = {
     {
       src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/optical trapping/optical trapping.mp4",
       alt: "Photophoretic optical trapping system demonstration",
-      orientation: "horizontal",
+      orientation: "vertical",
       caption: "Optical Trapping - Particle Confinement in Action",
     },
     {
