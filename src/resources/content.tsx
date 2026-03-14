@@ -321,19 +321,19 @@ const gallery: Gallery = {
   images: [
     // Cloud Chamber - Ionizing Particle Visualization
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/Americium test-optimized.mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/Americium%20test-optimized.mp4",
       alt: "Cloud chamber Americium test",
       orientation: "horizontal",
       caption: "Cloud Chamber - Americium Test",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cooling test-optimized.mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cooling%20test-optimized.mp4",
       alt: "Cloud chamber cooling test",
       orientation: "horizontal",
       caption: "Cloud Chamber - Cooling Test",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/operation(electron flood)-optimized.mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/operation(electron%20flood)-optimized.mp4",
       alt: "Cloud chamber operation with electron flood",
       orientation: "horizontal",
       caption: "Cloud Chamber - Electron Flood Operation",
