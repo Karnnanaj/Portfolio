@@ -390,7 +390,7 @@ const gallery: Gallery = {
       caption: "Fiber Optic - Video Feed Display",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/videofeedviafiber.mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/fiber%20optic%20link/videofeedviafiber.mp4",
       alt: "Fiber optic video transmission via fiber link",
       orientation: "horizontal",
       caption: "Fiber Optic - Video Transmission",
