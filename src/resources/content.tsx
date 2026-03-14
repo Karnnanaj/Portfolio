@@ -346,45 +346,45 @@ const gallery: Gallery = {
     },
     // Humidity & Temperature Data Logger
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/humidity and temp logger/final.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/humidity and temp logger/final-optimized.jpg",
       alt: "Humidity and temperature data logger final assembly",
       orientation: "vertical",
       caption: "Data Logger - Final Assembly",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/humidity and temp logger/interface.png",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/humidity and temp logger/interface-optimized.png",
       alt: "Data logger interface display",
       orientation: "horizontal",
       caption: "Data Logger - Interface",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/humidity and temp logger/internals.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/humidity and temp logger/internals-optimized.jpg",
       alt: "Data logger internal components",
       orientation: "vertical",
       caption: "Data Logger - Internal Components",
     },
     // EMI Isolation Detector
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/emi isolation/emi isolation testing.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/emi isolation/emi isolation testing-optimized.jpg",
       alt: "EMI isolation detector testing setup",
       orientation: "horizontal",
       caption: "EMI Isolation - Testing & Measurement",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/emi isolation/outputgraph.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/emi isolation/outputgraph-optimized.jpg",
       alt: "EMI isolation output graph analysis",
       orientation: "horizontal",
       caption: "EMI Isolation - Output Graph",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/emi isolation/testsetup.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/emi isolation/testsetup-optimized.jpg",
       alt: "EMI isolation test setup overview",
       orientation: "horizontal",
       caption: "EMI Isolation - Test Setup",
     },
     // Fiber Optic Communication Link
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/fiber optic link/videofeed.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/fiber optic link/videofeed-optimized.jpg",
       alt: "Fiber optic video feed demonstration",
       orientation: "horizontal",
       caption: "Fiber Optic - Video Feed Display",
@@ -397,63 +397,63 @@ const gallery: Gallery = {
     },
     // SimRacer Setup
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/sim racing/pedalsandsteeringwheel.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/sim racing/pedalsandsteeringwheel-optimized.jpg",
       alt: "SimRacer pedals and steering wheel assembly",
       orientation: "horizontal",
       caption: "SimRacer - Pedals & Steering Wheel",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/sim racing/showcase steering.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/sim racing/showcase steering-optimized.jpg",
       alt: "SimRacer steering wheel system showcase",
       orientation: "horizontal",
       caption: "SimRacer - Steering Wheel Assembly",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/sim racing/uncomplete steering system.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/sim racing/uncomplete steering system-optimized.jpg",
       alt: "SimRacer steering system in progress",
       orientation: "horizontal",
       caption: "SimRacer - Steering System Assembly",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/sim racing/uncomplete pedal system.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/sim racing/uncomplete pedal system-optimized.jpg",
       alt: "SimRacer pedal system assembly",
       orientation: "horizontal",
       caption: "SimRacer - Pedal System Assembly",
     },
     // PCB Strain Mapping
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/pcb strain mapping/hotspot detected.png",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/pcb strain mapping/hotspot detected-optimized.png",
       alt: "PCB hotspot detection visualization",
       orientation: "horizontal",
       caption: "PCB Strain - Thermal Hotspot Detection",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/pcb strain mapping/IMG_20260212_174414603.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/pcb strain mapping/IMG_20260212_174414603-optimized.jpg",
       alt: "PCB strain mapping field measurement",
       orientation: "vertical",
       caption: "PCB Strain - Field Measurement Setup",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/pcb strain mapping/IMG_20260212_174437091.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/pcb strain mapping/IMG_20260212_174437091-optimized.jpg",
       alt: "PCB strain analysis in progress",
       orientation: "vertical",
       caption: "PCB Strain - Analysis Process",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/pcb strain mapping/output strain S trace.png",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/pcb strain mapping/output strain S trace-optimized.png",
       alt: "PCB strain output trace analysis",
       orientation: "horizontal",
       caption: "PCB Strain - Strain Output Trace",
     },
     // SPI Chip Characterization
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/spi communication/closeup setup.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/spi communication/closeup setup-optimized.jpg",
       alt: "SPI communication test setup close-up",
       orientation: "horizontal",
       caption: "SPI Characterization - Test Equipment Detail",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/spi communication/Spi communication development setup.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/spi communication/Spi communication development setup-optimized.jpg",
       alt: "SPI communication development setup",
       orientation: "horizontal",
       caption: "SPI Characterization - Development Setup",
@@ -466,7 +466,7 @@ const gallery: Gallery = {
       caption: "Optical Trapping - Particle Confinement in Action",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/optical trapping/optical trapping.png",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/optical trapping/optical trapping-optimized.png",
       alt: "Photophoretic optical trapping system setup",
       orientation: "horizontal",
       caption: "Optical Trapping - System Architecture",
