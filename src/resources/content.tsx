@@ -389,6 +389,12 @@ const gallery: Gallery = {
       orientation: "horizontal",
       caption: "Fiber Optic - Video Feed Display",
     },
+    {
+      src: "/images/videofeed-optimized.mp4",
+      alt: "Fiber optic video feed demonstration",
+      orientation: "horizontal",
+      caption: "Fiber Optic - Video Feed Display",
+    },
     // SimRacer Setup
     {
       src: "/images/pedalsandsteeringwheel-optimized.jpg",
