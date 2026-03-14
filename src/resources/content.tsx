@@ -321,25 +321,25 @@ const gallery: Gallery = {
   images: [
     // Cloud Chamber - Ionizing Particle Visualization
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/Americium%20test-optimized.mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud%20chamber/Americium%20test-optimized.mp4",
       alt: "Cloud chamber Americium test",
       orientation: "horizontal",
       caption: "Cloud Chamber - Americium Test",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cooling%20test-optimized.mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud%20chamber/cooling%20test-optimized.mp4",
       alt: "Cloud chamber cooling test",
       orientation: "horizontal",
       caption: "Cloud Chamber - Cooling Test",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/operation(electron%20flood)-optimized.mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud%20chamber/operation(electron%20flood)-optimized.mp4",
       alt: "Cloud chamber operation with electron flood",
       orientation: "horizontal",
       caption: "Cloud Chamber - Electron Flood Operation",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/VID_20250124_141833022-optimized.mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud%20chamber/VID_20250124_141833022-optimized.mp4",
       alt: "Cloud chamber particle visualization",
       orientation: "vertical",
       caption: "Cloud Chamber - setup",
@@ -466,7 +466,7 @@ const gallery: Gallery = {
       caption: "Optical Trapping - Particle Confinement in Action",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/optical trapping-optimized.png",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/optical%20trapping/optical%20trapping-optimized.png",
       alt: "Photophoretic optical trapping system setup",
       orientation: "horizontal",
       caption: "Optical Trapping - System Architecture",
