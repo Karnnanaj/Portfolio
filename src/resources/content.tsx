@@ -321,70 +321,70 @@ const gallery: Gallery = {
   images: [
     // Cloud Chamber - Ionizing Particle Visualization
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud chamber/Americium test-optimized.mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/Americium test-optimized.mp4",
       alt: "Cloud chamber Americium test",
       orientation: "horizontal",
       caption: "Cloud Chamber - Americium Test",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud chamber/cooling test-optimized.mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cooling test-optimized.mp4",
       alt: "Cloud chamber cooling test",
       orientation: "horizontal",
       caption: "Cloud Chamber - Cooling Test",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud chamber/operation(electron flood)-optimized.mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/operation(electron flood)-optimized.mp4",
       alt: "Cloud chamber operation with electron flood",
       orientation: "horizontal",
       caption: "Cloud Chamber - Electron Flood Operation",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud chamber/VID_20250124_141833022-optimized.mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/VID_20250124_141833022-optimized.mp4",
       alt: "Cloud chamber particle visualization",
       orientation: "vertical",
       caption: "Cloud Chamber - setup",
     },
     // Humidity & Temperature Data Logger
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/humidity and temp logger/final-optimized.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/final-optimized.jpg",
       alt: "Humidity and temperature data logger final assembly",
       orientation: "vertical",
       caption: "Data Logger - Final Assembly",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/humidity and temp logger/interface-optimized.png",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/interface-optimized.png",
       alt: "Data logger interface display",
       orientation: "horizontal",
       caption: "Data Logger - Interface",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/humidity and temp logger/internals-optimized.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/internals-optimized.jpg",
       alt: "Data logger internal components",
       orientation: "vertical",
       caption: "Data Logger - Internal Components",
     },
     // EMI Isolation Detector
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/emi isolation/emi isolation testing-optimized.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/emi isolation testing-optimized.jpg",
       alt: "EMI isolation detector testing setup",
       orientation: "horizontal",
       caption: "EMI Isolation - Testing & Measurement",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/emi isolation/outputgraph-optimized.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/outputgraph-optimized.jpg",
       alt: "EMI isolation output graph analysis",
       orientation: "horizontal",
       caption: "EMI Isolation - Output Graph",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/emi isolation/testsetup-optimized.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/testsetup-optimized.jpg",
       alt: "EMI isolation test setup overview",
       orientation: "horizontal",
       caption: "EMI Isolation - Test Setup",
     },
     // Fiber Optic Communication Link
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/fiber optic link/videofeed-optimized.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/videofeed-optimized.jpg",
       alt: "Fiber optic video feed demonstration",
       orientation: "horizontal",
       caption: "Fiber Optic - Video Feed Display",
@@ -397,63 +397,63 @@ const gallery: Gallery = {
     },
     // SimRacer Setup
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/sim racing/pedalsandsteeringwheel-optimized.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/pedalsandsteeringwheel-optimized.jpg",
       alt: "SimRacer pedals and steering wheel assembly",
       orientation: "horizontal",
       caption: "SimRacer - Pedals & Steering Wheel",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/sim racing/showcase steering-optimized.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/showcase steering-optimized.jpg",
       alt: "SimRacer steering wheel system showcase",
       orientation: "horizontal",
       caption: "SimRacer - Steering Wheel Assembly",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/sim racing/uncomplete steering system-optimized.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/uncomplete steering system-optimized.jpg",
       alt: "SimRacer steering system in progress",
       orientation: "horizontal",
       caption: "SimRacer - Steering System Assembly",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/sim racing/uncomplete pedal system-optimized.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/uncomplete pedal system-optimized.jpg",
       alt: "SimRacer pedal system assembly",
       orientation: "horizontal",
       caption: "SimRacer - Pedal System Assembly",
     },
     // PCB Strain Mapping
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/pcb strain mapping/hotspot detected-optimized.png",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/hotspot detected-optimized.png",
       alt: "PCB hotspot detection visualization",
       orientation: "horizontal",
       caption: "PCB Strain - Thermal Hotspot Detection",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/pcb strain mapping/IMG_20260212_174414603-optimized.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/IMG_20260212_174414603-optimized.jpg",
       alt: "PCB strain mapping field measurement",
       orientation: "vertical",
       caption: "PCB Strain - Field Measurement Setup",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/pcb strain mapping/IMG_20260212_174437091-optimized.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/IMG_20260212_174437091-optimized.jpg",
       alt: "PCB strain analysis in progress",
       orientation: "vertical",
       caption: "PCB Strain - Analysis Process",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/pcb strain mapping/output strain S trace-optimized.png",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/output strain S trace-optimized.png",
       alt: "PCB strain output trace analysis",
       orientation: "horizontal",
       caption: "PCB Strain - Strain Output Trace",
     },
     // SPI Chip Characterization
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/spi communication/closeup setup-optimized.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/closeup setup-optimized.jpg",
       alt: "SPI communication test setup close-up",
       orientation: "horizontal",
       caption: "SPI Characterization - Test Equipment Detail",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/spi communication/Spi communication development setup-optimized.jpg",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/Spi communication development setup-optimized.jpg",
       alt: "SPI communication development setup",
       orientation: "horizontal",
       caption: "SPI Characterization - Development Setup",
@@ -466,7 +466,7 @@ const gallery: Gallery = {
       caption: "Optical Trapping - Particle Confinement in Action",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/optical trapping/optical trapping-optimized.png",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/optical trapping-optimized.png",
       alt: "Photophoretic optical trapping system setup",
       orientation: "horizontal",
       caption: "Optical Trapping - System Architecture",
