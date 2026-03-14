@@ -466,7 +466,7 @@ const gallery: Gallery = {
       caption: "Optical Trapping - Particle Confinement in Action",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/optical%20trapping/optical%20trapping-optimized.png",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/optical%20trapping-optimized.png",
       alt: "Photophoretic optical trapping system setup",
       orientation: "horizontal",
       caption: "Optical Trapping - System Architecture",
