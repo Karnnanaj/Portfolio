@@ -454,6 +454,12 @@ const gallery: Gallery = {
     },
     // Photophoretic Optical Trapping
     {
+      src: "/images/optical_trapping-optimized.mp4",
+      alt: "Photophoretic optical trapping system demonstration",
+      orientation: "vertical",
+      caption: "Optical Trapping - System Architecture",
+    },
+    {
       src: "/images/optical trapping-optimized.png",
       alt: "Photophoretic optical trapping system demonstration",
       orientation: "horizontal",
