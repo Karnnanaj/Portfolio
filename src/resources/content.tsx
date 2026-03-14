@@ -321,25 +321,25 @@ const gallery: Gallery = {
   images: [
     // Cloud Chamber - Ionizing Particle Visualization
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud chamber/Americium test.mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud chamber/Americium test-optimized.mp4",
       alt: "Cloud chamber Americium test",
       orientation: "horizontal",
       caption: "Cloud Chamber - Americium Test",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud chamber/cooling test.mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud chamber/cooling test-optimized.mp4",
       alt: "Cloud chamber cooling test",
       orientation: "horizontal",
       caption: "Cloud Chamber - Cooling Test",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud chamber/operation(electron flood).mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud chamber/operation(electron flood)-optimized.mp4",
       alt: "Cloud chamber operation with electron flood",
       orientation: "horizontal",
       caption: "Cloud Chamber - Electron Flood Operation",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud chamber/VID_20250124_141833022.mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/cloud chamber/VID_20250124_141833022-optimized.mp4",
       alt: "Cloud chamber particle visualization",
       orientation: "vertical",
       caption: "Cloud Chamber - setup",
