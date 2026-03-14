@@ -460,7 +460,7 @@ const gallery: Gallery = {
     },
     // Photophoretic Optical Trapping
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/optical trapping.mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/optical%20trapping/optical%20trapping.mp4",
       alt: "Photophoretic optical trapping system demonstration",
       orientation: "vertical",
       caption: "Optical Trapping - Particle Confinement in Action",
