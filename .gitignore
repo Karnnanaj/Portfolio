@@ -28,6 +28,10 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# Images and media (stored in Blob CDN, not in repo)
+/public/images/
+/optimized-media/
+
 # blob upload mapping
 blob-urls.json
 
