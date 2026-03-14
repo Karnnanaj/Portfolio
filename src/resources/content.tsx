@@ -389,12 +389,6 @@ const gallery: Gallery = {
       orientation: "horizontal",
       caption: "Fiber Optic - Video Feed Display",
     },
-    {
-      src: "/images/videofeedviafiber.mp4",
-      alt: "Fiber optic video transmission via fiber link",
-      orientation: "horizontal",
-      caption: "Fiber Optic - Video Transmission",
-    },
     // SimRacer Setup
     {
       src: "/images/pedalsandsteeringwheel-optimized.jpg",
@@ -460,14 +454,8 @@ const gallery: Gallery = {
     },
     // Photophoretic Optical Trapping
     {
-      src: "/images/optical trapping.mp4",
-      alt: "Photophoretic optical trapping system demonstration",
-      orientation: "vertical",
-      caption: "Optical Trapping - Particle Confinement in Action",
-    },
-    {
       src: "/images/optical trapping-optimized.png",
-      alt: "Photophoretic optical trapping system setup",
+      alt: "Photophoretic optical trapping system demonstration",
       orientation: "horizontal",
       caption: "Optical Trapping - System Architecture",
     },
