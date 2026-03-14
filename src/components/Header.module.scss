@@ -8,6 +8,23 @@
     mask-size: 100% 100%;
 }
 
+.workIconWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.pulseIndicator {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    z-index: 10;
+}
+
 @media (max-width: breakpoints.$s) {
     .position {
         top: auto;

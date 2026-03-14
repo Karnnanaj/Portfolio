@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
-import { Fade, Flex, Line, Row, ToggleButton } from "@once-ui-system/core";
+import { Fade, Flex, Pulse, Line, Row, ToggleButton } from "@once-ui-system/core";
 
 import { routes, display, person, about, blog, work, gallery } from "@/resources";
 import { ThemeToggle } from "./ThemeToggle";
@@ -44,6 +44,26 @@ export default TimeDisplay;
 
 export const Header = () => {
   const pathname = usePathname() ?? "";
+  const [workVisited, setWorkVisited] = useState(false);
+
+  // Track if work page has been visited in this session
+  useEffect(() => {
+    if (pathname.startsWith("/work")) {
+      setWorkVisited(true);
+      // Store in sessionStorage to persist across navigation
+      typeof window !== "undefined" && sessionStorage.setItem("workVisited", "true");
+    }
+  }, [pathname]);
+
+  // Check sessionStorage on mount
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const visited = sessionStorage.getItem("workVisited");
+      if (visited) {
+        setWorkVisited(true);
+      }
+    }
+  }, []);
 
   return (
     <>
@@ -112,23 +132,38 @@ export const Header = () => {
               {routes["/work"] && (
                 <>
                   <Row s={{ hide: true }}>
-                    <ToggleButton
-                      prefixIcon="grid"
-                      href="/work"
-                      label={work.label}
-                      selected={pathname.startsWith("/work")}
-                    />
+                    <div className={styles.workIconWrapper}>
+                      <ToggleButton
+                        prefixIcon="grid"
+                        href="/work"
+                        label={work.label}
+                        selected={pathname.startsWith("/work")}
+                      />
+                      {!workVisited && (
+                        <div className={styles.pulseIndicator}>
+                          <Pulse size="m" variant="danger" />
+                        </div>
+                      )}
+                    </div>
                   </Row>
                   <Row hide s={{ hide: false }}>
-                    <ToggleButton
-                      size="l"
-                      prefixIcon="grid"
-                      href="/work"
-                      selected={pathname.startsWith("/work")}
-                    />
+                    <div className={styles.workIconWrapper}>
+                      <ToggleButton
+                        size="l"
+                        prefixIcon="grid"
+                        href="/work"
+                        selected={pathname.startsWith("/work")}
+                      />
+                      {!workVisited && (
+                        <div className={styles.pulseIndicator}>
+                          <Pulse size="m" variant="danger" />
+                        </div>
+                      )}
+                    </div>
                   </Row>
                 </>
               )}
+
               {/* {routes["/blog"] && (
                 <>
                   <Row s={{ hide: true }}>
