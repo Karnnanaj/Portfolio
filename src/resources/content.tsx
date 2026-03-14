@@ -390,7 +390,7 @@ const gallery: Gallery = {
       caption: "Fiber Optic - Video Feed Display",
     },
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/fiber optic link/videofeedviafiber.mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/videofeedviafiber.mp4",
       alt: "Fiber optic video transmission via fiber link",
       orientation: "horizontal",
       caption: "Fiber Optic - Video Transmission",
@@ -460,7 +460,7 @@ const gallery: Gallery = {
     },
     // Photophoretic Optical Trapping
     {
-      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/optical trapping/optical trapping.mp4",
+      src: "https://favw6hdckgdqdobu.public.blob.vercel-storage.com/portfolio/optical trapping.mp4",
       alt: "Photophoretic optical trapping system demonstration",
       orientation: "vertical",
       caption: "Optical Trapping - Particle Confinement in Action",
