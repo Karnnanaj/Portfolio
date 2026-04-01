@@ -87,9 +87,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        MSc Photonics student at Cochin University of Science and Technology (CUSAT), 
-        specializing in quantum optics and control systems. With expertise in optoelectronics, embedded systems, 
-        and hardware design.
+        Photonics Integrated MSc student at Cochin University of Science and Technology (CUSAT), specializing in quantum optics and control systems. 
+        With expertise in optoelectronics, embedded systems, hardware design, and signal processing. Research interests include PICs for quantum computing applications, 
+        high-performance photodetectors, and optoelectronics hardware development.
       </>
     ),
   },
@@ -98,42 +98,55 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "Oxford Instruments",
-        timeframe: "2026 - Present",
-        role: "Embedded Systems Engineer",
-        achievements: [
-          <>
-            Developing humidity and temperature monitoring system with cloud database integration for remote environmental tracking and critical condition alerts
-          </>,
-        ],
-        images: [],
-      },
-      {
-        company: "Quanfluence PVT Ltd",
+        company: "Quanfluence Private Limited",
         timeframe: "2025",
         role: "Optoelectronics Intern",
         achievements: [
           <>
-            Developed SPI-based communication protocol for automated characterization of high-bandwidth 
-            transimpedance amplifier for quantum applications, reducing characterization time to under 3 minutes
+            Developed an SPI-based communication protocol for automated characterization of an experimental high-bandwidth transimpedance amplifier designed for quantum applications
           </>,
-          // <>
-          //   Optimized PDH-locked bow-tie cavity with FPGA-based feedback system achieving 3µs latency for 
-          //   light squeezing applications
-          // </>,
           <>
-            Achieved complete EMI isolation of homodyne detector output, improving noise floor from -55 to -68 dBm
+            Reduced full characterization time to 3 minutes from 1+ hours
+          </>,
+          <>
+            Optimized a PDH-locked bow-tie cavity and implemented FPGA-based feedback system achieving ~3µs latency for light squeezing applications
+          </>,
+          <>
+            Achieved complete EMI isolation of homodyne detector output under 5 GHz, improving noise floor from -55 dBm to -68 dBm
           </>,
         ],
         images: [],
       },
       {
-        company: "Bravecore PVT Ltd",
-        timeframe: "2025",
-        role: "Fiber Optic Communication Engineer",
+        company: "Oxford Instruments",
+        timeframe: "2026",
+        role: "Embedded Systems Developer (Contract)",
         achievements: [
           <>
-            Developed hot-swappable fiber-optic communication link using SFP with 1 GHz bandwidth and 20km range
+            Engineered an open-source device for remote monitoring of system and environment variables
+          </>,
+          <>
+            Implemented cloud database for data logging and risk assessment with CSV export capability
+          </>,
+          <>
+            Achieved 200+ days runtime using deep sleep optimization
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Bravecore Private Limited",
+        timeframe: "2025",
+        role: "Fiber Optic Communication Developer",
+        achievements: [
+          <>
+            Developed a hot-swappable fiber-optic communication link utilizing SFP transceivers
+          </>,
+          <>
+            Achieved 1 GHz bandwidth and 20 km maximum operational range with both telemetry and camera feed transmission
+          </>,
+          <>
+            Designed system compatible with wide range of SFP transceivers for upgraded range and data rate
           </>,
         ],
         images: [],
@@ -141,24 +154,33 @@ const about: About = {
       {
         company: "SimRacer",
         timeframe: "2024 - 2026",
-        role: "Founder & Embedded Systems Engineer",
+        role: "Embedded Systems Engineer / Founder",
         achievements: [
           <>
-            Founded company designing open-source sim racing setups
+            Built a sim racing rig with open-source hardware and custom firmware
           </>,
           <>
-            Built custom USB game controller with 4 analog and 12 digital inputs using Pi Pico
+            Programmed Raspberry Pi Pico as DirectInput HID device with auto-calibrator and software-based calibration mode
+          </>,
+          <>
+            Implemented steering wheel, paddle shifter, brake/accelerator pedals, and 8 mappable buttons
           </>,
         ],
         images: [],
       },
       {
-        company: "Ensemble Electronics",
-        timeframe: "2023 - 2025",
-        role: "Co-founder & Hardware Design Engineer",
+        company: "Cochin University of Science and Technology",
+        timeframe: "2022 - 2026",
+        role: "Project Researcher",
         achievements: [
           <>
-            Co-founded electronics hardware design and maintenance company
+            Developed a new method for full-field PCB strain mapping using laser-generated speckles and Digital Image Correlation
+          </>,
+          <>
+            Designed and built a 300W cloud chamber for visualizing ionizing particle paths with cascaded Peltier cooling to -37°C
+          </>,
+          <>
+            Successfully detected failure points on PCBs without causing damage using advanced optical techniques
           </>,
         ],
         images: [],
@@ -170,16 +192,16 @@ const about: About = {
     title: "Education",
     institutions: [
       {
-        name: "Cochin University of Science and Technology (CUSAT)",
-        description: <>MSc (5-year integrated) in Photonics (2022-2027). Specialized in quantum optics and control systems.</>,
+        name: "International School of Photonics, CUSAT",
+        description: <>Integrated MSc in Photonics (5-year program, 2022-2027). Specialized in quantum optics and control systems. CGPA: 8.61</>,
       },
       {
         name: "GHSS, Karupadanna",
-        description: <>Higher Secondary Education (2020-2022): Computer Science, Mathematics, Physics</>,
+        description: <>Higher Secondary Education (2020-2022): Majored in Computer Science, Mathematics, and Physics. Grade: 90%</>,
       },
       {
         name: "Technical High School, Kodungallur",
-        description: <>Technical Education (2017-2020) with workshop experience in trades including automobile, turning, welding, and electronics.</>,
+        description: <>Technical Education (2017-2020) with workshop experience in automobile, turning, welding, electrical, electronics, carpentry, fitting, and sheet metal. Majored in automobile engineering. Grade: 98%</>,
       },
     ],
   },
@@ -190,108 +212,68 @@ const about: About = {
       {
         title: "Programming & Software",
         description: (
-          <>Knowledge in Python, C++, Verilog for embedded systems; TensorFlow & Qiskit for quantum; 
-          COMSOL & MATLAB-Simulink for simulations; CAD tools: FreeCAD, KiCad, Onshape, SolidWorks</>
+          <>Python, C++, Verilog, SQL; TensorFlow & Qiskit for quantum computing; COMSOL, MATLAB-Simulink for simulations; 
+          CAD tools: FreeCAD, KiCad, Onshape, SolidWorks, Fusion360</>
         ),
         tags: [
-          {
-            name: "Python",
-            icon: "python",
-          },
-          {
-            name: "C++",
-            icon: "cpp",
-          },
-          {
-            name: "Verilog",
-            icon: "verilog",
-          },
+          { name: "Python", icon: "python" },
+          { name: "C++", icon: "cplusplus" },
+          { name: "Verilog", icon: "code" },
+          { name: "MATLAB", icon: "matlab" },
         ],
         images: [],
       },
       {
         title: "Hardware & Instrumentation",
         description: (
-          <>Proficient with oscilloscopes, spectrum/signal analyzers, EMI isolation, fiber optics & free-space optics, 
-          laser operation, and advanced signal processing techniques</>
+          <>Oscilloscope automation, Spectrum/Signal Analyzers, EMI Isolation, Fiber Optics & Free-Space Optics, 
+          Laser Operation, Signal Processing</>
         ),
         tags: [
-          {
-            name: "Oscilloscopes",
-            icon: "oscilloscope",
-          },
-          {
-            name: "Fiber Optics",
-            icon: "fiber",
-          },
-          {
-            name: "Laser",
-            icon: "laser",
-          },
+          { name: "Oscilloscopes", icon: "oscilloscope" },
+          { name: "Laser Systems", icon: "lightbulb" },
+          { name: "Fiber Optics", icon: "link" },
+          { name: "Signal Processing", icon: "pulse" },
         ],
         images: [],
       },
       {
         title: "Electronics & Prototyping",
         description: (
-          <>Expertise in PCB design, FPGA system design, microcontroller programming, SMD soldering, 
-          electronics prototyping, and sensor hardware interfacing</>
+          <>PCB Design, FPGA systems design, Microcontroller Programming, SMD Soldering (Hot Air/Station), 
+          Electronics Prototyping, Sensor Hardware Interfacing</>
         ),
         tags: [
-          {
-            name: "PCB Design",
-            icon: "pcb",
-          },
-          {
-            name: "FPGA",
-            icon: "fpga",
-          },
-          {
-            name: "Microcontroller",
-            icon: "microcontroller",
-          },
+          { name: "PCB Design", icon: "grid" },
+          { name: "FPGA", icon: "processor" },
+          { name: "Microcontrollers", icon: "chip" },
+          { name: "Soldering", icon: "wrench" },
         ],
         images: [],
       },
       {
         title: "CAD & Machining",
         description: (
-          <>Skills in FreeCAD, SolidWorks, Onshape for CAD design; lathe & milling machine operation, 3D printing</>
+          <>FreeCAD, KiCad, Onshape, SolidWorks, Fusion360 for CAD design; Lathe & Milling machine operation, 3D printing, Metal fabrication</>
         ),
         tags: [
-          {
-            name: "FreeCAD",
-            icon: "freecad",
-          },
-          {
-            name: "SolidWorks",
-            icon: "solidworks",
-          },
-          {
-            name: "3D Printing",
-            icon: "3dprinting",
-          },
+          { name: "CAD Design", icon: "grid" },
+          { name: "Machining", icon: "tool" },
+          { name: "3D Printing", icon: "cube" },
+          { name: "Fabrication", icon: "wrench" },
         ],
         images: [],
       },
       {
         title: "Machine Learning & Simulation",
         description: (
-          <>Proficiency in machine learning techniques and optics simulation for quantum and photonic applications</>
+          <>Proficiency in machine learning techniques, optics simulation, TensorFlow, Qiskit for quantum computing, and COMSOL for photonic simulations</>
         ),
         tags: [
-          {
-            name: "TensorFlow",
-            icon: "tensorflow",
-          },
-          {
-            name: "MATLAB",
-            icon: "matlab",
-          },
-          {
-            name: "ML",
-            icon: "ml",
-          },
+          { name: "TensorFlow", icon: "brain" },
+          { name: "MATLAB", icon: "matlab" },
+          { name: "Qiskit", icon: "code" },
+          { name: "Simulation", icon: "pulse" },
         ],
         images: [],
       },
